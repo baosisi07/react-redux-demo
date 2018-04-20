@@ -38,7 +38,7 @@ react-redux-demo/
 
 **redux主要由三部分组成：store，reducer，action。**
 
-#####store是一个对象，它有四个主要的方法
+##### store是一个对象，它有四个主要的方法
 
 1. dispatch:
 用于action的分发
@@ -49,10 +49,10 @@ react-redux-demo/
 4. replaceReducer:
 替换reducer，改变state修改的逻辑。
 
-#####action:
+##### action:
 action是一个对象，其中type属性是必须的，同时可以传入一些数据。action可以用actionCreactor进行创造。dispatch就是把action对象发送出去。
 
-#####reducer:
+##### reducer:
 reducer是一个函数，它接受一个state和一个action，根据action的type返回一个新的state。根据业务逻辑可以分为很多个reducer，然后通过combineReducers将它们合并，state树中有很多对象，每个state对象对应一个reducer，state对象的名字可以在合并时定义。
 
 安装redux `npm install redux --save`
@@ -247,5 +247,5 @@ package.json中配置 babel属性中新增 `"plugins":["transform-decorators-leg
 
 以上是react-redux的简单使用
 
-**不断更新中，敬请期待**
+**不断更新中，敬请期待...**
 
