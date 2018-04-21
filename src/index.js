@@ -53,6 +53,8 @@ import reducers from "./reducers.js";
 import { BrowserRouter, Route, Link, Redirect, Switch } from "react-router-dom";
 import Auth from "./auth.js";
 import Home from "./home.js";
+import "./config";
+import 'antd-mobile/dist/antd-mobile.css';
 const store = createStore(reducers, applyMiddleware(thunk));
 
 ReactDOM.render(
